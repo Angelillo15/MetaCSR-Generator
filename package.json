@@ -1,0 +1,29 @@
+{
+  "name": "metapage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npm run build && node dist/index.js -v --config ./test/config.json",
+    "build": "npx tsc",
+    "dev": "npx nodemon",
+    "install": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.1.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "main" : "dist/index.js",
+  "bin" : {
+    "metacsr" : "./dist/index.js"
+  }
+}

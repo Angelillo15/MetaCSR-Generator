@@ -1,0 +1,34 @@
+{
+    "project": "My Project",
+    "version": "1.0.0",
+    "description": "My Project description",
+    "baseHtmlPath": "./test/index.html",
+    "distPath": "./test/dist/",
+    "routes": [{
+        "name": "home",
+        "path": "/",
+        "description": "Home page",
+        "replaceMap": [{
+            "search": "{%testPlaceholder%}",
+            "replace": "testReplacement home"
+        }]
+    },
+    {
+        "name": "about",
+        "path": "/about",
+        "description": "About page",
+        "replaceMap": [{
+            "search": "{%testPlaceholder%}",
+            "replace": "testReplacement about"
+        }]
+    },
+    {
+        "name": "contact",
+        "path": "/contact",
+        "description": "Contact page",
+        "replaceMap": [{
+            "search": "{%testPlaceholder%}",
+            "replace": "testReplacement contact"
+        }]
+    }]
+}
