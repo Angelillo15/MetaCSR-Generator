@@ -1,6 +1,6 @@
 {
   "name": "metacs-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "test": "npm run build && node dist/index.js -v --config ./test/config.json",
@@ -13,14 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.1",
-    "figlet": "^1.6.0"
-  },
-  "devDependencies": {
+    "figlet": "^1.6.0",
     "@types/figlet": "^1.5.6",
     "@types/node": "^20.1.0",
-    "nodemon": "^2.0.22",
-    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
   },
   "main" : "dist/index.js",
   "bin" : {
