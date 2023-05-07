@@ -15,6 +15,8 @@ export function replaceAll(
         if (writeaPath.endsWith("/.html")) {
             writeaPath = writeaPath.replace(".html", "index.html");
         }
+        
+        fs.mkdirSync(path.dirname(path.resolve(writeaPath)), { recursive: true });
 
         let newContent = originalContent.replace(search, replace);
         
@@ -43,7 +45,7 @@ export function loadReplaces(config: config) {
         logger.debug("Replacing " + route.name + " with " + route.path);
         replaceAll(
             originalContent,
-            config.distPath + route.path + ".html",
+            config.distPath + route.path + "/" + "index.html",
             "{%description%}",
             route.description as string,
             route.replaceMap
