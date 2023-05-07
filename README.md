@@ -8,13 +8,13 @@ This is a tool to generate an index.html file for each route to have a better SE
 ### NPM
 
 ```bash
-npm install -D meta-csr-generator
+npm install -D metacsr-generator
 ```
 
 ### Yarn
 
 ```bash
-yarn add -D meta-csr-generator
+yarn add -D metacsr-generator
 ```
 
 ## Usage (example for vite)
