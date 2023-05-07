@@ -1,6 +1,6 @@
 {
   "name": "metacs-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "test": "npm run build && node dist/index.js -v --config ./test/config.json",

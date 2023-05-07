@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import figlet from "figlet";
 import { Command, OptionValues } from "commander";
 import path from "path";
