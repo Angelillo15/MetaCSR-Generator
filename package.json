@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Angelillo15/MetaPage.git"
+  },
   "dependencies": {
     "commander": "^10.0.1",
     "figlet": "^1.6.0",
