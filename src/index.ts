@@ -8,7 +8,7 @@ import * as replace from "./utils/replace";
 const program = new Command();
 
 program
-  .version("0.0.1")
+  .version("1.0.0")
   .description("MetaCSR Generator")
   .option("-v, --verbose", "Verbose output")
   .option("-c, --config <path>", "Path to config file");
